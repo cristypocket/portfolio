@@ -98,11 +98,11 @@ input, select, textarea {
 	}
 
 	body {
-		background-color: #1e0044;
-		background-image: url("images/overlay.png"), -moz-linear-gradient(45deg, #2a0869 15%, #0c0038 85%);
-		background-image: url("images/overlay.png"), -webkit-linear-gradient(45deg,  #2a0869 15%, #0c0038 85%);
-		background-image: url("images/overlay.png"), -ms-linear-gradient(45deg, #2a0869 15%, #0c0038 85%);
-		background-image: url("images/overlay.png"), linear-gradient(45deg,  #2a0869 15%, #0c0038 85%);
+		background-color: #added8;
+		background-image: url("images/overlay.png"), -moz-linear-gradient(45deg, #4c9baa 15%, #added88 85%);
+		background-image: url("images/overlay.png"), -webkit-linear-gradient(45deg,  #4c9baa 15%, #added8 85%);
+		background-image: url("images/overlay.png"), -ms-linear-gradient(45deg, #4c9baa 15%, #added88 85%);
+		background-image: url("images/overlay.png"), linear-gradient(45deg,  #4c9baa 15%, #added88 85%);
 	}
 
 		body.is-preload *, body.is-preload *:before, body.is-preload *:after {
@@ -119,12 +119,12 @@ input, select, textarea {
 /* Type */
 
 	body {
-		background-color: #935d8c;
+		background-color: #added8;
 		color: rgba(255, 255, 255, 0.65);
 	}
 
 	body, input, select, textarea {
-		font-family: 'EB Garamond', serif;
+		font-family: 'Nunito';
 	/*	font-family: "Source Sans Pro", Helvetica, sans-serif;*/
 		font-size: 17pt;
 		font-weight: 300;
@@ -2454,7 +2454,7 @@ input, select, textarea {
 		}
 
 		dl dd {
-			margin-left: 2em;
+			margin-left: 3em;
 		}
 
 		dl.alt dt {
@@ -3204,10 +3204,10 @@ input, select, textarea {
 		}
 
 		body.is-preload #header.alt .logo {
-			-moz-transform: rotate(-360deg);
-			-webkit-transform: rotate(-360deg);
-			-ms-transform: rotate(-360deg);
-			transform: rotate(-360deg);
+			-moz-transform: opacity 3s ease;
+			-webkit-transform: opacity 3s ease;
+			-ms-transform: opacity 3s ease;
+			transform: ropacity 3s ease;
 			-webkit-transform-origin: 50% 50%;
 			-moz-transform-origin: 50% 50%;
 			-ms-transform-origin: 50% 50%;
@@ -3216,10 +3216,10 @@ input, select, textarea {
 		}
 		 @keyframes spin {
    from {
-     transform: rotate(-180deg);
+     transform: opacity 3s ease;
    }
    to {
-     transform: rotate(-360deg);
+     transform: opacity 3s ease);
    }
 }
 
