@@ -4038,7 +4038,7 @@ input, select, textarea {
 }
 
 /* The Modal (background) */
-.modal, .modalUDG, .modalSCS, .modalCC {
+.modal, .modalDPro, .modalDPer {
   display: none;
   position: fixed;
   z-index: 1;
@@ -4052,7 +4052,7 @@ input, select, textarea {
 }
 
 /* Modal Content */
-.modal-content, .modal-contentUDG, .modal-contentSCS, .modal-contentCC {
+.modal-content, .modal-contentDPro, .modal-contentDPer {
   position: relative;
   background-color: #fefefe;
   margin: auto;
@@ -4063,7 +4063,7 @@ input, select, textarea {
 }
 
 /* The Close Button */
-.close, .closeUDG, .closeSCS, .closeCC {
+.close, .closeDPro, .closeDPer {
   color: white;
   position: absolute;
   top: 10px;
@@ -4073,26 +4073,24 @@ input, select, textarea {
 }
 
 .close:hover,
-.close:focus, .closeUDG:hover,
-.closeUDG:focus, .closeSCS:hover,
-.closeSCS:focus, .closeCC:hover,
-.closeCC:focus {
+.close:focus, .closeDPro:hover,
+.closeDPro:focus, .closeDPer:hover,
+.closeDPer:focus {
   color: #999;
   text-decoration: none;
   cursor: pointer;
 }
 
 /* Hide the slides by default */
-.mySlides, .mySlidesUDG, .mySlidesSCS, .mySlidesCC {
+.mySlides, .mySlidesDPro, .mySlidesDPer {
   display: none;
 }
 
 /* Next & previous buttons */
 .prev,
-.next, .prevUDG,
-.nextUDG, .prevSCS,
-.nextSCS, .prevCC,
-.nextCC {
+.next, .prevDPro,
+.nextDPro, .prevDPer,
+.nextDPer {
   cursor: pointer;
   position: absolute;
   top: 50%;
@@ -4109,13 +4107,13 @@ input, select, textarea {
 }
 
 /* Position the "next button" to the right */
-.next, .nextUDG, .nextSCS, .nextCC {
+.next, .nextDPro, .nextDPer {
   right: 0;
   border-radius: 3px 0 0 3px;
 }
 
 /* On hover, add a black background color with a little bit see-through */
-.prev:hover, .next:hover, .prevUDG:hover, .nextUDG:hover, .prevSCS:hover, .nextSCS:hover, .prevCC:hover, .nextCC:hover {
+.prev:hover, .next:hover, .prevDPro:hover, .nextDPro:hover, .prevDPer:hover, .nextDPer:hover {
   background-color: rgba(0, 0, 0, 0.8);
 }
 
@@ -4180,7 +4178,7 @@ img.hover-shadow {
   }
   
   /* The Modal (background) */
-  .modal, .modalUDG, .ModalSCS, .ModalCC {
+  .modal, .modalDPro, .ModalDPer {
 	display: none;
 	position: fixed;
 	z-index: 1;
@@ -4195,7 +4193,7 @@ img.hover-shadow {
   }
   
   /* Modal Content */
-  .modal-content, .modal-contentUDG, .modal-contentSCS, .modal-contentCC {
+  .modal-content, .modal-contentDPro, .modal-contentDPer {
 	position: relative;
 	background-color: #fefefef3;
 	margin: auto;
@@ -4207,7 +4205,7 @@ img.hover-shadow {
   }
   
   /* The Close Button */
-  .close, .closeUDG, .closeSCS, .closeCC {
+  .close, .closeDPro, .closeDPer {
 	color: #333333;
 	position: absolute;
 	top:0;
@@ -4216,19 +4214,19 @@ img.hover-shadow {
 	font-weight: bold;
   }
   
-  .close:hover, .close:focus, .closeUDG:hover, .closeUDG:focus, .closeSCS:hover, .closeSCS:focus, .closeCC:hover, .closeCC:focus {
+  .close:hover, .close:focus, .closeDPro:hover, .closeDPro:focus, .closeDPer:hover, .closeDPer:focus {
 	color: #999;
 	text-decoration: none;
 	cursor: pointer;
   }
   
   /* Hide the slides by default */
-  .mySlides, .mySlidesUDG, .mySlidesSCS, .mySlidesCC {
+  .mySlides, .mySlidesDPro, .mySlidesDPer {
 	display: none;
   }
   
   /* Next & previous buttons */
-  .prev, .next, .prevUDG, .nextUDG, .prevSCS, .nextSCS, .prevCC, .nextCC {
+  .prev, .next, .prevDPro, .nextDPro, .prevDPer, .nextDPer {
 	cursor: pointer;
 	position: absolute;
 	top: 50%;
@@ -4245,17 +4243,17 @@ img.hover-shadow {
   }
   
   /* Position the "next button" to the right */
-  .next, .nextUDG, .nextSCS, .nextCC {
+  .next, .nextDPro, .nextDPer {
 	right: 0;
 	border-radius: 3px 0 0 3px;
   }
 
-  .prev, .prevUDG, .prevSCS, .prevCC {
+  .prev, .prevDPro, .prevDPer {
 	  left: 0;
 	}
   
   /* On hover, add a black background color with a little bit see-through */
-  .prev:hover, .next:hover, .prevUDG:hover, .nextUDG:hover, .prevSCS:hover, .nextSCS:hover, .prevCC:hover, .nextCC:hover {
+  .prev:hover, .next:hover, .prevDPro:hover, .nextDPro:hover, .prevDPer:hover, .nextDPer:hover {
 	background-color: rgba(0, 0, 0, 0.8);
   }
   
@@ -4293,7 +4291,7 @@ img.hover-shadow {
 	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
   }
 
-  .image-modal, .image-modalUDG, .image-modalSCS, .image-modalCC {
+  .image-modal, .image-modalDPro, .image-modalDPer {
 	text-align: left;
 	vertical-align: middle;
 	padding: 5%;
@@ -4303,7 +4301,7 @@ img.hover-shadow {
 
   }
 
-  .text-modal, .text-modalUDG, .text-modalSCS, .text-modalCC {
+  .text-modal, .text-modalDPro, .text-modalDPer {
 	  font-size: 14px;
 	  margin:0em;
 	  padding: 5%;
