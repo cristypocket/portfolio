@@ -177,16 +177,10 @@
 
 									
 										<!-- Next/previous controls -->
-										<a class="prevUDG" onclick="plusSlidesDPro(-1)">&#10094;</a>
-										<a class="nextUDG" onclick="plusSlidesDPro(1)">&#10095;</a>
-									
+										<a class="prevDpro" onclick="plusSlidesDPro(-1)">&#10094;</a>
+										<a class="nextDpro" onclick="plusSlidesDPro(1)">&#10095;</a>			
 									</div>
-								
 								</div>
-								
-								
-								
-								
 							</section>
 							
 							<!-- Designs personnels -->
@@ -201,7 +195,7 @@
 										<h5></h5>
 																					
 													<footer class="major">
-													<a class="button small" onclick="openModalDPe();currentSlideDPe(1)">Plus d'infos</a>
+													<a class="button small" onclick="openModalDPer();currentSlideDPer(1)">Plus d'infos</a>
 											
 									</li>
 									<li>
@@ -210,7 +204,7 @@
 										<h5></h5>
 																					
 													<footer class="major">
-													<a class="button small" onclick="openModalDPe();currentSlideDPe(2)">Plus d'infos</a>
+													<a class="button small" onclick="openModalDPer();currentSlideDPer(2)">Plus d'infos</a>
 											
 									</li>
 									<li>
@@ -219,56 +213,53 @@
 										<h5></h5>
 																					
 													<footer class="major">
-													<a class="button small" onclick="openModalDPe();currentSlideDPe(3)">Plus d'infos</a>
+													<a class="button small" onclick="openModalDPer();currentSlideDPer(3)">Plus d'infos</a>
 									</li>
 								</ul>
 								
 								
-								<!-- Modal DPe --->
+								<!-- Modal DPer --->
 								
-								<div id="myModalDPe" class="modalDPe">
-									<div class="modal-contentDPe">
-										<span class="close cursor" onclick="closeModalDPe()">&times;</span>
+								<div id="myModalDPer" class="modalDPer">
+									<div class="modal-contentDPer">
+										<span class="close cursor" onclick="closeModalDPer()">&times;</span>
 										
-										<div class="mySlidesDPe">
+										<div class="mySlidesDPer">
 											<ul class="features2" style="padding: 25px">
 													<li >
-														<div class="image-modalDPe">
+														<div class="image-modalDPer">
 															<img src="images/TDAHKesako.jpeg" style="width: 100%">
 														</div>
-				
 													</li>
-													
 													<li>
 														<h4><b>Livre TDAH Késako</b></h4>
 														<h5><b>Canva</b></h5>
-														<p class="text-modalDPe">Ecriture et illustration d'un livre tout public pour sensibiliser au TDAH.
+														<p class="text-modalDPer">Ecriture et illustration d'un livre tout public pour sensibiliser au TDAH.
 														</p>
 													</li>
 											</ul>
 										</div>	
 										
-										<div class="mySlidesDPe">
+										<div class="mySlidesDPer">
 											<ul class="features2" style="padding: 25px">
 													<li >
-														<div class="image-modalDPe">
+														<div class="image-modalDPer">
 															<img src="images/SassyPup.png" style="width: 100%">
 														</div>
-				
 													</li>
 													
 													<li>
 														<h4><b>Sassy Pup Collection</b></h4>
 														<h5><b>Procreate - Canva</b></h5>
-														<p class="text-modalDPe">Série de dessins de ma chienne sur t-shirts.
+														<p class="text-modalDPer">Série de dessins de ma chienne sur t-shirts.
 														</p>
 													</li>
 											</ul>
 										</div>
-										<div class="mySlidesDPe">
+										<div class="mySlidesDPer">
 											<ul class="features2" style="padding: 25px">
 													<li>
-														<div class="image-modalDPe">
+														<div class="image-modalDPer">
 															<img src="images/PosterPlantes.png" style="width: 100%">
 														</div>
 				
@@ -277,7 +268,8 @@
 													<li>
 														<h4><b>Plantes médicinales du jardin</b></h4>
 														<h5><b>Poster - Canva</b></h5>
-														<p class="text-modalDPe">Illustration d'un poster listant 12 plantes médicinales cultivables en jardin, avec conseils d'utilisation.
+														<p class="text-modalDPer">Illustration d'un poster listant 12 plantes médicinales cultivables en jardin,
+															avec conseils d'utilisation.
 														</p>
 													</li>
 											</ul>
@@ -285,8 +277,8 @@
 
 									
 										<!-- Next/previous controls -->
-										<a class="prevDPe" onclick="plusSlidesDPe(-1)">&#10094;</a>
-										<a class="nextDPe" onclick="plusSlidesDPe(1)">&#10095;</a>
+										<a class="prevDPer" onclick="plusSlidesDPer(-1)">&#10094;</a>
+										<a class="nextDPer" onclick="plusSlidesDPer(1)">&#10095;</a>
 									
 									</div>
 								</div>	
@@ -367,44 +359,44 @@
 <!-- Gallerie Designs Personnels -->
 		<script>
 		// Open the Modal
-		function openModalDPe) {
-		  document.getElementById('myModalDPe').style.display = "block";
+		function openModalDPer) {
+		  document.getElementById('myModalDPer').style.display = "block";
 		}
 		
 		// Close the Modal
-		function closeModalDPe() {
-		  document.getElementById('myModalDPe').style.display = "none";
+		function closeModalDPer() {
+		  document.getElementById('myModalDPer').style.display = "none";
 		}
 		
-		var slideIndexDPe = 1;
-		showSlidesDPe(slideIndexDPe);
+		var slideIndexDPer = 1;
+		showSlidesDPer(slideIndexDPer);
 		
 		// Next/previous controls
-		function plusSlidesDPe(n) {
-		  showSlidesDPe(slideIndexDPe += n);
+		function plusSlidesDPer(n) {
+		  showSlidesDPer(slideIndexDPer += n);
 		}
 		
 		// Thumbnail image controls
-		function currentSlideDPe(n) {
-		  showSlidesDPe(slideIndexDPe = n);
+		function currentSlideDPer(n) {
+		  showSlidesDPer(slideIndexDPer = n);
 		}
 		
-		function showSlidesDPe(n) {
+		function showSlidesDPer(n) {
 		  var i;
-		  var slides = document.getElementsByClassName("mySlidesDPe");
+		  var slides = document.getElementsByClassName("mySlidesDPer");
 		  var dots = document.getElementsByClassName("demo");
 		  var captionText = document.getElementById("caption");
-		  if (n > slides.length) {slideIndexDPe = 1}
-		  if (n < 1) {slideIndexDPe = slides.length}
+		  if (n > slides.length) {slideIndexDPer = 1}
+		  if (n < 1) {slideIndexDPer = slides.length}
 		  for (i = 0; i < slides.length; i++) {
 			slides[i].style.display = "none";
 		  }
 		  for (i = 0; i < dots.length; i++) {
 			dots[i].className = dots[i].className.replace(" active", "");
 		  }
-		  slides[slideIndexDPe-1].style.display = "block";
-		  dots[slideIndexDPe-1].className += " active";
-		  captionText.innerHTML = dots[slideIndexDPe-1].alt;
+		  slides[slideIndexDPer-1].style.display = "block";
+		  dots[slideIndexDPer-1].className += " active";
+		  captionText.innerHTML = dots[slideIndexDPer-1].alt;
 		}
 		</script>
 	</body>
