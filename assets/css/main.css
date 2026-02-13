@@ -3229,7 +3229,6 @@ input, select, textarea {
 		background-color: #ffffff;
 		color: #f0f0f0;
 		position: absolute;
-		align: center;
 		width: 64em;
 		max-width: calc(100% - 4em);
 		padding: 1em;
@@ -3321,7 +3320,7 @@ input, select, textarea {
 			background-color:#659391;
 			border-top-left-radius: 0;
 			border-top-right-radius: 0;
-			z-index: 2;
+			z-index: 50;
 		}
 
 			#nav.alt ul li {
