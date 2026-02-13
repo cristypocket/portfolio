@@ -25,7 +25,7 @@ section, summary, time, mark, audio, video {
 	vertical-align: baseline;}
 
 article, aside, details, figcaption, figure,
-footer, header, hgroup, menu, nav, section {
+footer, header, hgroup, menu, , section {
 	display: block;}
 
 body {
@@ -3312,7 +3312,7 @@ input, select, textarea {
 					}
 
 					#nav ul li a.active {
-						background-color: #4a4458;
+						background-color: #189784;
 						box-shadow: none;
 					}
 
@@ -3320,7 +3320,7 @@ input, select, textarea {
 			position: fixed;
 			top: 0;
 			padding: 0.5em 1em;
-			background-color:#d1f8ff;
+			background-color:#90d5d3;
 			border-top-left-radius: 0;
 			border-top-right-radius: 0;
 			z-index: 10000;
