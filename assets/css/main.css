@@ -3229,7 +3229,6 @@ input, select, textarea {
 		background-color: #ffffff;
 		color: #f0f0f0;
 		position: absolute;
-		display: flex;
 		width: 64em;
 		max-width: calc(100% - 4em);
 		padding: 1em;
