@@ -3232,10 +3232,9 @@ input, select, textarea {
 		transition: background-color 0.2s ease, border-top-left-radius 0.2s ease, border-top-right-radius 0.2s ease, padding 0.2s ease;
 		background-color: #ffffff;
 		color: #f0f0f0;
-		position: absolute;
-		width: 70em;
-		max-width: calc(100% - 1em);
-		padding: 5px;
+		width: 64em;
+		max-width: calc(100% - 4em);
+		padding: 1em;
 		background-color: #289e9a;
 		border-top-left-radius: 0.25em;
 		border-top-right-radius: 0.25em;
@@ -3317,13 +3316,13 @@ input, select, textarea {
 					}
 
 		#nav.alt {
-			position: absolute;
+			position: fixed;
 			top: 0;
 			padding: 0.5em 1em;
 			background-color:#659391;
 			border-top-left-radius: 0;
 			border-top-right-radius: 0;
-			z-index: 0;
+			z-index: 1000;
 		}
 
 			#nav.alt ul li {
