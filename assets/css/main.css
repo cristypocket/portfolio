@@ -3102,7 +3102,7 @@ input, select, textarea {
 
 			#header.alt .logo {
 				position: fixed;
-				z-index: -1;
+				z-index: 0;
 				-moz-transition: opacity 1s ease, -moz-transform 1s ease;
 				-webkit-transition: opacity 1s ease, -webkit-transform 1s ease;
 				-ms-transition: opacity 1s ease,-ms-transform 1s ease;
@@ -3235,7 +3235,7 @@ input, select, textarea {
 		width: 70em;
 		max-width: calc(100% - 1em);
 		padding: 1em;
-		background-color: #224f4d;
+		background-color: #289e9a;
 		border-top-left-radius: 0.25em;
 		border-top-right-radius: 0.25em;
 		cursor: default;
@@ -3311,15 +3311,15 @@ input, select, textarea {
 					}
 
 					#nav ul li a.active {
-						background-color: #289e9a;
+						background-color: #224f4d;
 						box-shadow: none;
 					}
 
 		#nav.alt {
-			position: fixed;
+			position: absolute;
 			top: 0;
 			padding: 0.5em 1em;
-			background-color:#dddddd;
+			background-color:#659391d;
 			border-top-left-radius: 0;
 			border-top-right-radius: 0;
 			z-index: 10000;
