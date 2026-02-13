@@ -3230,6 +3230,8 @@ input, select, textarea {
 		color: #f0f0f0;
 		position: absolute;
 		display: flex;
+		left: 50%;
+  		transform: translateX(-50%);
 		align: center;
 		width: 64em;
 		max-width: calc(100% - 4em);
