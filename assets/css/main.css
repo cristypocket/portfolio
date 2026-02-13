@@ -3229,6 +3229,7 @@ input, select, textarea {
 		background-color: #ffffff;
 		color: #f0f0f0;
 		position: absolute;
+		align: center;
 		width: 64em;
 		max-width: calc(100% - 4em);
 		padding: 1em;
@@ -3275,6 +3276,7 @@ input, select, textarea {
 		#nav ul {
 			margin: 0;
 			padding: 0;
+			align: center;
 			list-style: none;
 		}
 
@@ -3286,6 +3288,7 @@ input, select, textarea {
 				display: inline-block;
 				margin: 0 0.35em;
 				padding: 0;
+				align: center;
 				vertical-align: middle;
 			}
 
@@ -3314,7 +3317,6 @@ input, select, textarea {
 
 		#nav.alt {
 			position: fixed;
-			display: flex;
 			top: 0;
 			padding: 1em;
 			background-color:#659391;
