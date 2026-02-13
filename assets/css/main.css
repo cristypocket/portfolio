@@ -3066,7 +3066,7 @@ input, select, textarea {
 /* Header */
 
 	#header {
-		padding: 1em 1em 1em 1em ;
+		padding: 20em 1em 1em 1em ;
 		text-align: center;
 	}
 
@@ -3120,7 +3120,7 @@ input, select, textarea {
 
 				#header.alt .logo img {
 					display: block;
-					margin: 0 1000 0 0;
+					margin: 0 0 0 0;
 					max-width: auto;
 				}
 
@@ -3216,10 +3216,10 @@ input, select, textarea {
 		}
 		 @keyframes spin {
    from {
-     transform: opacity 1s ease;
+     transform: opacity 0.5s ease;
    }
    to {
-     transform: opacity 1s ease);
+     transform: opacity 0.5s ease);
    }
 }
 
@@ -3289,7 +3289,7 @@ input, select, textarea {
 				transition: margin 0.2s ease;
 				display: inline-block;
 				margin: 0 0.35em;
-				padding: 0;
+				padding: 2em;
 				vertical-align: middle;
 			}
 
@@ -3320,7 +3320,7 @@ input, select, textarea {
 			position: fixed;
 			top: 0;
 			padding: 0.5em 1em;
-			background-color:#659391d;
+			background-color:#659391;
 			border-top-left-radius: 0;
 			border-top-right-radius: 0;
 			z-index: 0;
