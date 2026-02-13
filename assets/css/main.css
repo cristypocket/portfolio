@@ -3232,13 +3232,12 @@ input, select, textarea {
 		display: flex;
 		left: 50%;
   		transform: translateX(-50%);
-		align: center;
 		width: 64em;
 		max-width: calc(100% - 4em);
 		padding: 1em;
 		background-color: #289e9a;
-		border-top-left-radius: 0.25em;
-		border-top-right-radius: 0.25em;
+		border-top-left-radius: 0.1em;
+		border-top-right-radius: 0.1em;
 		cursor: default;
 		text-align: center;
 	}
@@ -3291,7 +3290,6 @@ input, select, textarea {
 				display: inline-block;
 				margin: 0 0.35em;
 				padding: 0;
-				align: center;
 				vertical-align: middle;
 			}
 
@@ -3326,8 +3324,8 @@ input, select, textarea {
   			transform: translateX(-50%);
 			padding: 1em;
 			background-color:#659391;
-			border-top-left-radius: 0;
-			border-top-right-radius: 0;
+			border-top-left-radius: 0.1em;
+			border-top-right-radius: 0.1em;
 			z-index: 50;
 		}
 
