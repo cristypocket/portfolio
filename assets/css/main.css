@@ -3359,7 +3359,7 @@ input, select, textarea {
 		background-color: #dae7e6;
 		/*#FFFFFF chqnges*/ 
 		color: #525252;
-		border-radius: 0.25em;
+		border-radius: 0.1em;
 	}
 
 		#main input, #main select, #main textarea {
@@ -3606,7 +3606,7 @@ input, select, textarea {
 
 		#main > .main {
 			padding: 3em 5em 3em 5em ;
-			border-top: solid 1px #dddddd;
+			border-top: 0;
 		}
 
 			#main > .main:first-child {
