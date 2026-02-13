@@ -2355,7 +2355,7 @@ input, select, textarea {
 /* Image */
 
 	.image {
-		border-radius: 8px;
+		border-radius: 2px;
 		border: 0;
 		display: block;
 		position: relative;
@@ -2389,11 +2389,11 @@ input, select, textarea {
 		.image.fit {
 			display: block;
 			margin: 0 0 2em 0;
-			width: 100%;
+			width: 80%;
 		}
 
 			.image.fit img {
-				width: 100%;
+				width: 80%;
 			}
 
 		.image.main {
@@ -2403,7 +2403,7 @@ input, select, textarea {
 		}
 
 			.image.main img {
-				width: 100%;
+				width: 80%;
 			}
 
 /* List */
@@ -3102,7 +3102,7 @@ input, select, textarea {
 
 			#header.alt .logo {
 				position: fixed;
-				z-index: 0;
+				z-index: -1;
 				-moz-transition: opacity 1s ease, -moz-transform 1s ease;
 				-webkit-transition: opacity 1s ease, -webkit-transform 1s ease;
 				-ms-transition: opacity 1s ease,-ms-transform 1s ease;
