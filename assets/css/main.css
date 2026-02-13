@@ -3316,7 +3316,7 @@ input, select, textarea {
 					}
 
 		#nav.alt {
-			position: relative;
+			position: fixed;
 			top: 0;
 			padding: 0.5em 1em;
 			background-color:#659391d;
