@@ -3318,6 +3318,7 @@ input, select, textarea {
 		#nav.alt {
 			position: fixed;
 			top: 0;
+			align: center;
 			padding: 1em;
 			background-color:#659391;
 			border-top-left-radius: 0;
