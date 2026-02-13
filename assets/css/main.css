@@ -3243,7 +3243,7 @@ input, select, textarea {
 		border-top-left-radius: 0;
 		border-top-right-radius: 0em;
 		border-bottom-left-radius: 0.25em;
-		border-botton-right-radius: 0.25em;
+		border-bottom-right-radius: 0.25em;
 		cursor: default;
 		text-align: center;
 	}
@@ -3332,10 +3332,10 @@ input, select, textarea {
 			width: 56em;
 			padding: 1em;
 			background-color:#659391;
-			border-top-left-radius: 0;
-			border-top-right-radius: 0;
+			border-top-left-radius: 0.25em;
+			border-top-right-radius: 0.25em;
 			border-bottom-left-radius: 0.25em;
-			border-botton-right-radius: 0.25em;
+			border-bottom-right-radius: 0.25em;
 			z-index: 50;
 		}
 
