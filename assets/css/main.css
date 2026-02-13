@@ -2629,7 +2629,7 @@ input, select, textarea {
 	}
 
 	header.major {
-		margin-bottom: 6em;
+		margin-bottom: 2em;
 	}
 
 		header.major h2 {
@@ -3088,11 +3088,11 @@ input, select, textarea {
 
 			#header.alt > * {
 				position: relative;
-				z-index: -5;
-				-moz-transition: opacity 3s ease;
-				-webkit-transition: opacity 3s ease;
-				-ms-transition: opacity 3s ease;
-				transition: opacity 3s ease;
+				z-index: 5;
+				-moz-transition: opacity 1s ease;
+				-webkit-transition: opacity 1s ease;
+				-ms-transition: opacity 1s ease;
+				transition: opacity 1s ease;
 				-moz-transition-delay: 0.5s;
 				-webkit-transition-delay: 0.5s;
 				-ms-transition-delay: 0.5s;
@@ -3103,34 +3103,34 @@ input, select, textarea {
 			#header.alt .logo {
 				position: relative;
 				z-index: 5;
-				-moz-transition: opacity 2s ease, -moz-transform 2s ease;
-				-webkit-transition: opacity 2s ease, -webkit-transform 2s ease;
-				-ms-transition: opacity 2s ease,-ms-transform 2s ease;
+				-moz-transition: opacity 1s ease, -moz-transform 1s ease;
+				-webkit-transition: opacity 1s ease, -webkit-transform 1s ease;
+				-ms-transition: opacity 1s ease,-ms-transform 1s ease;
 				transition: opacity 1s ease, transform 1s ease;
-				-moz-transition-delay: 2s;
-				-webkit-transition-delay: 2s;
-				-ms-transition-delay: 2s;
-				transition-delay: 2s;
+				-moz-transition-delay: 1s;
+				-webkit-transition-delay: 1s;
+				-ms-transition-delay: 1s;
+				transition-delay: 1s;
 				display: block;
-				margin: 0 1000 0 0;
+				margin: 0 0 0 0;
 				
 			}
 			
 
 				#header.alt .logo img {
 					display: block;
-					margin: 0 auto;
+					margin: 0 1000 0 0;
 					max-width: auto;
 				}
 
 		@media screen and (max-width: 1280px) {
 
 			#header {
-				padding: 4em 4em 0.1em 4em ;
+				padding: 1em 1em 1em 1em ;
 			}
 
 				#header.alt {
-					padding: 6em 4em 3em 4em ;
+					padding: 1em 1em 1em 1em ;
 				}
 
 		}
@@ -3138,11 +3138,11 @@ input, select, textarea {
 		@media screen and (max-width: 980px) {
 
 			#header {
-				padding: 4em 3em 0.1em 3em ;
+				padding: 1em 1em 1em 1em ;
 			}
 
 				#header.alt {
-					padding: 5em 3em 2em 3em ;
+					padding: 1em 1em 1em 1em ;
 				}
 
 		}
@@ -3150,7 +3150,7 @@ input, select, textarea {
 		@media screen and (max-width: 736px) {
 
 			#header {
-				padding: 3em 2em 0.1em 2em ;
+				padding: 1em 1em 1em 1em ;
 			}
 
 				#header p {
@@ -3163,7 +3163,7 @@ input, select, textarea {
 					}
 
 				#header.alt {
-					padding: 4em 2em 1em 2em ;
+					padding: 1em 1em 1em 1em ;
 				}
 
 					#header.alt h1 {
@@ -3175,11 +3175,11 @@ input, select, textarea {
 		@media screen and (max-width: 480px) {
 
 			#header {
-				padding: 3em 1.5em 0.1em 1.5em ;
+				padding: 1em 1em 1em 1em ;
 			}
 
 				#header.alt {
-					padding: 4em 1.5em 1em 1.5em ;
+					padding: 1em 1em 1em 1em ;
 				}
 
 		}
@@ -3187,11 +3187,11 @@ input, select, textarea {
 		@media screen and (max-width: 360px) {
 
 			#header {
-				padding: 2.5em 1em 0.1em 1em ;
+				padding: 1em 1em 1em 1em ;
 			}
 
 				#header.alt {
-					padding: 3.5em 1em 0.5em 1em ;
+					padding: 1em 1em 1em 1em ;
 				}
 
 		}
@@ -3203,10 +3203,10 @@ input, select, textarea {
 		}
 
 		body.is-preload #header.alt .logo {
-			-moz-transform: opacity 3s ease;
-			-webkit-transform: opacity 3s ease;
-			-ms-transform: opacity 3s ease;
-			transform: opacity 3s ease;
+			-moz-transform: opacity 1s ease;
+			-webkit-transform: opacity 1s ease;
+			-ms-transform: opacity 1s ease;
+			transform: opacity 1s ease;
 			-webkit-transform-origin: 50% 50%;
 			-moz-transform-origin: 50% 50%;
 			-ms-transform-origin: 50% 50%;
@@ -3215,10 +3215,10 @@ input, select, textarea {
 		}
 		 @keyframes spin {
    from {
-     transform: opacity 3s ease;
+     transform: opacity 1s ease;
    }
    to {
-     transform: opacity 3s ease);
+     transform: opacity 1s ease);
    }
 }
 
@@ -3233,7 +3233,7 @@ input, select, textarea {
 		color: #f0f0f0;
 		position: center;
 		width: 64em;
-		max-width: calc(100% - 4em);
+		max-width: calc(100%);
 		padding: 1em;
 		background-color: #224f4d;
 		border-top-left-radius: 0.25em;
