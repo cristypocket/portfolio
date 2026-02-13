@@ -3235,7 +3235,7 @@ input, select, textarea {
 		position: center;
 		width: 70em;
 		max-width: calc(100% - 1em);
-		padding: 1em;
+		padding: 5px;
 		background-color: #289e9a;
 		border-top-left-radius: 0.25em;
 		border-top-right-radius: 0.25em;
