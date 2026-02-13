@@ -3236,12 +3236,14 @@ input, select, textarea {
 		left: 50%;
   		transform: translateX(-50%);
 		justify-content: center;
-		width: 70em;
+		width: 64em;
 		max-width: calc(100% - 4em);
 		padding: 1em;
 		background-color: #289e9a;
-		border-top-left-radius: 0.1em;
-		border-top-right-radius: 0.1em;
+		border-top-left-radius: 0.25em;
+		border-top-right-radius: 0.25em;
+		border-bottom-left-radius: 0.25em;
+		border-botton-right-radius: 0.25em;
 		cursor: default;
 		text-align: center;
 	}
@@ -3327,11 +3329,13 @@ input, select, textarea {
 			left: 50%;
   			transform: translateX(-50%);
 			justify-content: center;
-			width: 64em;
+			width: 56em;
 			padding: 1em;
 			background-color:#659391;
-			border-top-left-radius: 0.1em;
-			border-top-right-radius: 0.1em;
+			border-top-left-radius: 0.25em;
+			border-top-right-radius: 0.25em;
+			border-bottom-left-radius: 0.25em;
+			border-botton-right-radius: 0.25em;
 			z-index: 50;
 		}
 
