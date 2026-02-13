@@ -3323,7 +3323,7 @@ input, select, textarea {
 			background-color:#659391;
 			border-top-left-radius: 0;
 			border-top-right-radius: 0;
-			z-index: 5;
+			z-index: -3;
 		}
 
 			#nav.alt ul li {
