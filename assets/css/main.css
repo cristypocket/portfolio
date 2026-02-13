@@ -3229,6 +3229,7 @@ input, select, textarea {
 		background-color: #ffffff;
 		color: #f0f0f0;
 		position: absolute;
+		display: flex;
 		align: center;
 		width: 64em;
 		max-width: calc(100% - 4em);
@@ -3317,6 +3318,7 @@ input, select, textarea {
 
 		#nav.alt {
 			position: fixed;
+			display: flex;
 			top: 0;
 			left: 50%;
   			transform: translateX(-50%);
