@@ -3232,7 +3232,7 @@ input, select, textarea {
 		transition: background-color 0.2s ease, border-top-left-radius 0.2s ease, border-top-right-radius 0.2s ease, padding 0.2s ease;
 		background-color: #ffffff;
 		color: #f0f0f0;
-		position: center;
+		position: absolute;
 		width: 70em;
 		max-width: calc(100% - 1em);
 		padding: 5px;
@@ -3317,7 +3317,7 @@ input, select, textarea {
 					}
 
 		#nav.alt {
-			position: fixed;
+			position: absolute;
 			top: 0;
 			padding: 0.5em 1em;
 			background-color:#659391;
