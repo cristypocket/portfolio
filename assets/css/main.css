@@ -2389,11 +2389,11 @@ input, select, textarea {
 		.image.fit {
 			display: block;
 			margin: 0 0 2em 0;
-			width: 80%;
+			width: 100%;
 		}
 
 			.image.fit img {
-				width: 80%;
+				width: 100%;
 			}
 
 		.image.main {
@@ -2403,7 +2403,7 @@ input, select, textarea {
 		}
 
 			.image.main img {
-				width: 80%;
+				width: 100%;
 			}
 
 /* List */
@@ -3126,7 +3126,7 @@ input, select, textarea {
 		@media screen and (max-width: 1280px) {
 
 			#header {
-				padding: 1em 1em 1em 1em ;
+				padding: 10em 1em 1em 1em ;
 			}
 
 				#header.alt {
