@@ -98,11 +98,11 @@ input, select, textarea {
 	}
 
 	body {
-		background-color: #cee7e6;
-		background-image: url("images/overlay.png"), -moz-linear-gradient(45deg, #cee7e 15%, #added88 85%);
-		background-image: url("images/overlay.png"), -webkit-linear-gradient(45deg,  #cee7e6 15%, #added8 85%);
-		background-image: url("images/overlay.png"), -ms-linear-gradient(45deg, #cee7e6 15%, #added88 85%);
-		background-image: url("images/overlay.png"), linear-gradient(45deg,  #cee7e6 15%, #added88 85%);
+		background-color: #f0f7f7;
+		background-image: url("images/overlay.png"), -moz-linear-gradient(45deg, #cee7e 85%, #added88 15%);
+		background-image: url("images/overlay.png"), -webkit-linear-gradient(45deg,  #cee7e6 85%, #added8 15%);
+		background-image: url("images/overlay.png"), -ms-linear-gradient(45deg, #cee7e6 85%, #added88 15%);
+		background-image: url("images/overlay.png"), linear-gradient(45deg,  #cee7e6 85%, #added88 15%);
 	}
 
 		body.is-preload *, body.is-preload *:before, body.is-preload *:after {
@@ -119,7 +119,7 @@ input, select, textarea {
 /* Type */
 
 	body {
-		background-color: #cee7e6;
+		background-color: #f0f7f7;
 		color: rgba(255, 255, 255, 0.65);
 	}
 
@@ -3089,7 +3089,7 @@ input, select, textarea {
 
 			#header.alt > * {
 				position: relative;
-				z-index: -5;
+				z-index: 1;
 				-moz-transition: opacity 3s ease;
 				-webkit-transition: opacity 3s ease;
 				-ms-transition: opacity 3s ease;
@@ -3103,7 +3103,7 @@ input, select, textarea {
 
 			#header.alt .logo {
 				position: relative;
-				z-index: 0;
+				z-index: 1;
 				-moz-transition: opacity 2s ease, -moz-transform 2s ease;
 				-webkit-transition: opacity 2s ease, -webkit-transform 2s ease;
 				-ms-transition: opacity 2s ease,-ms-transform 2s ease;
@@ -3201,7 +3201,7 @@ input, select, textarea {
 		body.is-preload #header.alt > * {
 			opacity: 0;
 			position: relative;
-			z-index: 0;
+			z-index: 1;
 		}
 
 		body.is-preload #header.alt .logo {
@@ -3324,7 +3324,7 @@ input, select, textarea {
 			background-color:#659391;
 			border-top-left-radius: 0;
 			border-top-right-radius: 0;
-			z-index: -3;
+			z-index: 2;
 		}
 
 			#nav.alt ul li {
@@ -3679,7 +3679,7 @@ input, select, textarea {
 
 			#main {
 				border-radius: 0;
-//				z-index : -3;
+//				z-index : 1;
 				position: relative;
 			}
 
