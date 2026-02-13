@@ -119,7 +119,7 @@ input, select, textarea {
 /* Type */
 
 	body {
-		background-color: #added8;
+		background-color: #70c7c5;
 		color: rgba(255, 255, 255, 0.65);
 	}
 
@@ -3320,7 +3320,7 @@ input, select, textarea {
 			position: fixed;
 			top: 0;
 			padding: 0.5em 1em;
-			background-color:#90d5d3;
+			background-color:#66a5a3;
 			border-top-left-radius: 0;
 			border-top-right-radius: 0;
 			z-index: 10000;
