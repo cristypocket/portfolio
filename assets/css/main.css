@@ -2418,10 +2418,12 @@ input, select, textarea {
 		list-style: disc;
 		margin: 0 0 2em 0;
 		padding-left: 1em;
+		vertical-align: middle;
 	}
 
 		ul li {
 			padding-left: 0.5em;
+			vertical-align: middle;
 		}
 
 		ul.alt {
