@@ -3236,7 +3236,7 @@ input, select, textarea {
 		left: 50%;
   		transform: translateX(-50%);
 		justify-content: center;
-		width: 64em;
+		width: 70em;
 		max-width: calc(100% - 4em);
 		padding: 1em;
 		background-color: #289e9a;
@@ -3327,6 +3327,7 @@ input, select, textarea {
 			left: 50%;
   			transform: translateX(-50%);
 			justify-content: center;
+			width: 64em;
 			padding: 1em;
 			background-color:#659391;
 			border-top-left-radius: 0.1em;
