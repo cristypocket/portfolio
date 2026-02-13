@@ -3231,7 +3231,6 @@ input, select, textarea {
 		position: absolute;
 		display: flex;
 		width: 64em;
-		left: 50%;
 		max-width: calc(100% - 4em);
 		padding: 1em;
 		background-color: #289e9a;
@@ -3318,7 +3317,6 @@ input, select, textarea {
 		#nav.alt {
 			position: fixed;
 			display: flex;
-			left: 50%;
 			top: 0;
 			padding: 1em;
 			background-color:#659391;
