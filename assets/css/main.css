@@ -3402,12 +3402,28 @@ input, select, textarea {
 		@media screen and (max-width: 736px) {
 
 			#nav {
-				display: none;
+				display: flex;
+				max-width: calc(100% - 1em);
+			padding: 0;
 			}
 
 				#nav + #main {
 					padding-top: 0;
 				}
+
+					#nav ul li a {
+						-moz-transition: font-size 0.2s ease;
+						-webkit-transition: font-size 0.2s ease;
+						-ms-transition: font-size 0.2s ease;
+						transition: font-size 0.2s ease;
+						display: inline-block;
+						height: 1.8em;
+						line-height: 1.8em;
+						padding: 0 0.8em;
+						border: 0;
+						border-radius: 6px;
+						box-shadow: inset 0 0 0 1px transparent;
+					}
 
 		}
 
