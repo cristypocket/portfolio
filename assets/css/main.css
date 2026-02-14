@@ -3104,8 +3104,8 @@ input, select, textarea {
 
 			#header.alt .logo {
 				position: absolute;
-				left: 240px
-				max-height: 250px
+				left: 10em
+				max-height: 14em;
 				z-index: 4;
 				-moz-transition: opacity 2s ease, -moz-transform 2s ease;
 				-webkit-transition: opacity 2s ease, -webkit-transform 2s ease;
