@@ -3123,7 +3123,6 @@ input, select, textarea {
 				#header.alt .logo img {
 					display: block;
 					margin: 0 0 0 0;
-					max-width: 14em;
 				}
 
 		@media screen and (max-width: 1280px) {
@@ -3170,18 +3169,18 @@ input, select, textarea {
 		@media screen and (max-width: 480px) {
 
 				#header {
-					padding: 1em 1em 1em 1em ;
+					padding: 0 0 0 0;
 				}
 
 				#header.alt {
-					padding: 1em 1em 1em 1em ;
+					padding: 0 0 0 0;
 				}
 		}
 
 		@media screen and (max-width: 360px) {
 
 			#header {
-				padding: 1em 1em 1em 1em ;
+				padding: 0 0 0 0;
 			}
 		}
 
