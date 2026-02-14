@@ -3125,7 +3125,7 @@ input, select, textarea {
 				#header.alt .logo img {
 					display: block;
 					margin: 0 0 0 0;
-					max-width: auto;
+					max-width: 14em;
 				}
 
 		@media screen and (max-width: 1280px) {
@@ -3348,7 +3348,6 @@ input, select, textarea {
 				left: 50%;
   				transform: translateX(-50%);
 				justify-content: center;
-				width: auto;
 				padding: 0;
 				background-color:#659391;
 				border-top-left-radius: 0.25em;
@@ -3930,7 +3929,7 @@ input, select, textarea {
 		@media screen and (max-width: 360px) {
 
 			#wrapper {
-				max-width: calc(100% - 4em;
+				max-width: calc(100% - 4em);
 			}
 
 		}
