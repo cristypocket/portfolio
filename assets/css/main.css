@@ -3086,7 +3086,7 @@ input, select, textarea {
 
 			#header.alt h1 {
 				position: absolute;
-				top: 3em; 
+				top: 2em; 
 				left:10em;
 				z-index:10;
 				font-size: 3.15em;
@@ -3109,7 +3109,7 @@ input, select, textarea {
 
 			#header.alt .logo {
 				position: absolute;
-				left: 2em;
+				left: 4em;
 				top: 1em;
 				height: 15em;
 				z-index: 4;
@@ -3203,6 +3203,7 @@ input, select, textarea {
 					left: 1em;
 					top: 0;
 					height: 6em;
+					z-index: 9;
 				}
 
 		}
@@ -3230,6 +3231,7 @@ input, select, textarea {
 					left: 0;
 					top: 0;
 					height: 3em;
+					z-index:9;
 				}
 
 		}
