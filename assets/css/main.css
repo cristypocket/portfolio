@@ -3072,7 +3072,7 @@ input, select, textarea {
 	}
 
 		#header h1 {
-			margin: 0 0 0.25em 0;
+			margin: 0 0 0 0;
 		}
 
 		#header p {
@@ -3090,7 +3090,7 @@ input, select, textarea {
 
 			#header.alt > * {
 				position: relative;
-				z-index: 1;
+				z-index: 4;
 				-moz-transition: opacity 3s ease;
 				-webkit-transition: opacity 3s ease;
 				-ms-transition: opacity 3s ease;
