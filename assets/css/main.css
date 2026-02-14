@@ -3104,6 +3104,9 @@ input, select, textarea {
 
 			#header.alt .logo {
 				position: absolute;
+				left: 17.5em;
+				top: 1em;
+				max-height: calc(100% - 2em);
 				z-index: 4;
 				-moz-transition: opacity 2s ease, -moz-transform 2s ease;
 				-webkit-transition: opacity 2s ease, -webkit-transform 2s ease;
@@ -3134,7 +3137,9 @@ input, select, textarea {
 				#header.alt {
 					padding: 1em 1em 1em 1em ;
 				}
-
+				#header.alt h1 {
+				font-size: 2.65em;
+				}
 		}
 
 		@media screen and (max-width: 980px) {
@@ -3163,6 +3168,17 @@ input, select, textarea {
 				#header.alt {
 					padding: 1em 1em 1em 1em ;
 				}
+			
+				#header.alt h1 {
+				font-size: 2.15em;
+				}
+			
+				#header.alt .logo {
+					position: absolute;
+					left: 10em;
+					top: 0;
+					max-height: calc(100% - 8em);
+				}
 
 		}
 
@@ -3175,6 +3191,18 @@ input, select, textarea {
 				#header.alt {
 					padding: 0 0 0 0;
 				}
+
+				#header.alt h1 {
+				font-size: 1.65em;
+				}
+			
+				#header.alt .logo {
+					position: absolute;
+					left: 6em;
+					top: 0;
+					max-height: calc(100% - 12em);
+				}
+
 		}
 
 		@media screen and (max-width: 360px) {
@@ -3182,6 +3210,16 @@ input, select, textarea {
 			#header {
 				padding: 0 0 0 0;
 			}
+				#header.alt h1 {
+					font-size: 1.15em;
+				}
+
+				#header.alt .logo {
+					position: absolute;
+					left: 1em;
+					top: 0;
+					max-height: calc(100% - 16em);
+				}
 		}
 
 		body.is-preload #header.alt > * {
