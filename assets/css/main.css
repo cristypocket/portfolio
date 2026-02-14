@@ -3224,7 +3224,7 @@ input, select, textarea {
 		left: 50%;
   		transform: translateX(-50%);
 		justify-content: center;
-		width: 64em;
+		max-width: 64em;
 		max-width: calc(100% - 4em);
 		padding: 1em;
 		background-color: #289e9a;
@@ -3317,7 +3317,7 @@ input, select, textarea {
 			left: 50%;
   			transform: translateX(-50%);
 			justify-content: center;
-			width: 56em;
+			max-width: 56em;
 			padding: 1em;
 			background-color:#659391;
 			border-top-left-radius: 0.25em;
@@ -3339,22 +3339,6 @@ input, select, textarea {
 
 			#nav {
 				display: none;
-			}
-
-			#nav.alt {
-				position: fixed;
-				display: flex;
-				top: 0;
-				left: 50%;
-  				transform: translateX(-50%);
-				justify-content: center;
-				padding: 0;
-				background-color:#659391;
-				border-top-left-radius: 0.25em;
-				border-top-right-radius: 0.25em;
-				border-bottom-left-radius: 0.25em;
-				border-bottom-right-radius: 0.25em;
-				z-index: 50;
 			}
 
 				#nav + #main {
@@ -3647,7 +3631,7 @@ input, select, textarea {
 
 				#main > .main > .image.main:first-child {
 					margin: -4em 0 4em -4em;
-					width: calc(100% - 8em);
+					width: calc(100% + 8em);
 				}
 
 		}
@@ -3660,7 +3644,7 @@ input, select, textarea {
 
 				#main > .main > .image.main:first-child {
 					margin: 0 0 0 0;
-					width: calc(100% - 6em);
+					width: calc(100% + 6em);
 				}
 
 		}
@@ -3673,7 +3657,7 @@ input, select, textarea {
 
 				#main > .main > .image.main:first-child {
 					margin: 0 0 0 0;
-					width: calc(100% - 4em);
+					width: calc(100% + 4em);
 				}
 
 		}
@@ -3686,7 +3670,7 @@ input, select, textarea {
 
 				#main > .main > .image.main:first-child {
 					margin: 0 0 0 0;
-					width: calc(100% - 3em);
+					width: calc(100% + 3em);
 				}
 
 		}
@@ -3699,7 +3683,7 @@ input, select, textarea {
 
 				#main > .main > .image.main:first-child {
 					margin: 0 0 0 0;
-					width: calc(100% - 2em);
+					width: calc(100% + 2em);
 				}
 
 		}
@@ -3914,14 +3898,14 @@ input, select, textarea {
 
 	#wrapper {
 		/*width: 64em;*/
-		max-width: calc(100% - 4em);
+		max-width: calc(100% + 4em);
 		margin: 0 auto;
 	}
 
 		@media screen and (max-width: 480px) {
 
 			#wrapper {
-				max-width: calc(100% - 2em);
+				max-width: calc(100% + 2em);
 			}
 
 		}
@@ -3929,7 +3913,7 @@ input, select, textarea {
 		@media screen and (max-width: 360px) {
 
 			#wrapper {
-				max-width: calc(100% - 4em);
+				max-width: calc(100% + 1em);
 			}
 
 		}
