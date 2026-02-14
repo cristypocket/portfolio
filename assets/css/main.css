@@ -3152,7 +3152,7 @@ input, select, textarea {
 					left: 2em;
 					top: 0;
 					height: 8em;
-					max-height: calc(100% - 3em);
+					max-height: calc(100% + 3em);
 				}
 			
 		}
@@ -3160,7 +3160,7 @@ input, select, textarea {
 		@media screen and (max-width: 736px) {
 
 			#header {
-				padding: 2em 1em 6em 1em ;
+				padding: 0.5em 0 0.5em 0 ;
 			}
 
 				#header p {
@@ -3173,7 +3173,7 @@ input, select, textarea {
 					}
 
 				#header.alt {
-					padding: 2em 1em 6em 1em ;
+					padding: 0.5em 0 0.5em 0 ;
 				}
 
 				#header.alt h1 {
@@ -3190,6 +3190,7 @@ input, select, textarea {
 					left: 1em;
 					top: 0;
 					height: 6em;
+					max-height: calc(100% + 2em);
 					z-index: 9;
 				}
 
@@ -3218,6 +3219,7 @@ input, select, textarea {
 					left: 0;
 					top: 0;
 					height: 2em;
+					max-height: calc(100% + 1em);
 					z-index:9;
 				}
 
