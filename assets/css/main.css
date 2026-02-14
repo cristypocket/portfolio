@@ -242,6 +242,10 @@ input, select, textarea {
 		h1 {
 			font-size: 2em;
 		}
+		
+		h2 {
+		font-size: 1em;
+		}
 
 	}
 
@@ -3141,9 +3145,41 @@ input, select, textarea {
 			}
 
 				#header.alt {
-					padding: 1em 1em 1em 1em ;
+					position: relative;
+					z-index: 1;
+					-moz-transition: opacity 3s ease;
+					-webkit-transition: opacity 3s ease;
+					-ms-transition: opacity 3s ease;
+					transition: opacity 3s ease;
+					-moz-transition-delay: 0.5s;
+					-webkit-transition-delay: 0.5s;
+					-ms-transition-delay: 0.5s;
+					transition-delay: 0.5s;
+					opacity: 1;
 				}
 
+				#header.alt .logo {
+					position: relative;
+					z-index: 1;
+					-moz-transition: opacity 2s ease, -moz-transform 2s ease;
+					-webkit-transition: opacity 2s ease, -webkit-transform 2s ease;
+					-ms-transition: opacity 2s ease,-ms-transform 2s ease;
+					transition: opacity 1s ease, transform 4s ease;
+					-moz-transition-delay: 2s;
+					-webkit-transition-delay: 2s;
+					-ms-transition-delay: 2s;
+					transition-delay: 2s;
+					display: block;
+					position: inherit;
+					margin: 0 1000 0 0;	
+				}
+
+				#header.alt .logo img {
+					display: block;
+					margin: 0 0 0 0;
+					max-width: auto;
+				}
+			
 		}
 
 		@media screen and (max-width: 736px) {
@@ -3173,9 +3209,9 @@ input, select, textarea {
 
 		@media screen and (max-width: 480px) {
 
-			#header {
-				padding: 1em 1em 1em 1em ;
-			}
+				#header {
+					padding: 1em 1em 1em 1em ;
+				}
 
 				#header.alt {
 					padding: 1em 1em 1em 1em ;
@@ -3190,7 +3226,39 @@ input, select, textarea {
 			}
 
 				#header.alt {
-					padding: 1em 1em 1em 1em ;
+					position: relative;
+					z-index: 1;
+					-moz-transition: opacity 3s ease;
+					-webkit-transition: opacity 3s ease;
+					-ms-transition: opacity 3s ease;
+					transition: opacity 3s ease;
+					-moz-transition-delay: 0.5s;
+					-webkit-transition-delay: 0.5s;
+					-ms-transition-delay: 0.5s;
+					transition-delay: 0.5s;
+					opacity: 1;
+				}
+
+				#header.alt .logo {
+					position: relative;
+					z-index: 1;
+					-moz-transition: opacity 2s ease, -moz-transform 2s ease;
+					-webkit-transition: opacity 2s ease, -webkit-transform 2s ease;
+					-ms-transition: opacity 2s ease,-ms-transform 2s ease;
+					transition: opacity 1s ease, transform 4s ease;
+					-moz-transition-delay: 2s;
+					-webkit-transition-delay: 2s;
+					-ms-transition-delay: 2s;
+					transition-delay: 2s;
+					display: block;
+					position: inherit;
+					margin: 0 1000 0 0;	
+				}
+
+				#header.alt .logo img {
+					display: block;
+					margin: 0 0 0 0;
+					max-width: auto;
 				}
 
 		}
@@ -3212,14 +3280,7 @@ input, select, textarea {
 			transform-origin: 50% 50%;
 
 		}
-		 /*@keyframes spin {
-   from {
-     transform: opacity 0.5s ease;
-   }
-   to {
-     transform: opacity 0.5s ease);
-   }
-}*/
+		
 
 /* Nav */
 
@@ -3349,7 +3410,25 @@ input, select, textarea {
 		@media screen and (max-width: 736px) {
 
 			#nav {
-				display: none;
+				display: flex;
+				width: auto;
+			}
+
+			#nav.alt {
+				position: fixed;
+				display: flex;
+				top: 0;
+				left: 50%;
+  				transform: translateX(-50%);
+				justify-content: center;
+				width: auto;
+				padding: 0;
+				background-color:#659391;
+				border-top-left-radius: 0.25em;
+				border-top-right-radius: 0.25em;
+				border-bottom-left-radius: 0.25em;
+				border-bottom-right-radius: 0.25em;
+				z-index: 50;
 			}
 
 				#nav + #main {
@@ -3637,12 +3716,12 @@ input, select, textarea {
 		@media screen and (max-width: 1280px) {
 
 			#main > .main {
-				padding: 4em 4em 2em 4em ;
+				padding: 4em 4em 4em 4em ;
 			}
 
 				#main > .main > .image.main:first-child {
 					margin: -4em 0 4em -4em;
-					width: calc(100% + 8em);
+					width: calc(100% - 8em);
 				}
 
 		}
@@ -3650,12 +3729,12 @@ input, select, textarea {
 		@media screen and (max-width: 980px) {
 
 			#main > .main {
-				padding: 4em 3em 2em 3em ;
+				padding: 3em 3em 3em 3em ;
 			}
 
 				#main > .main > .image.main:first-child {
-					margin: -4em 0 4em -3em;
-					width: calc(100% + 6em);
+					margin: 0 0 0 0;
+					width: calc(100% - 6em);
 				}
 
 		}
@@ -3663,12 +3742,12 @@ input, select, textarea {
 		@media screen and (max-width: 736px) {
 
 			#main > .main {
-				padding: 3em 2em 1em 2em ;
+				padding: 2em 2em 2em 2em ;
 			}
 
 				#main > .main > .image.main:first-child {
-					margin: -3em 0 2em -2em;
-					width: calc(100% + 4em);
+					margin: 0 0 0 0;
+					width: calc(100% - 4em);
 				}
 
 		}
@@ -3676,37 +3755,26 @@ input, select, textarea {
 		@media screen and (max-width: 480px) {
 
 			#main > .main {
-				padding: 3em 1.5em 1em 1.5em ;
+				padding: 1.5em 1.5em 1.5em 1.5em ;
 			}
 
 				#main > .main > .image.main:first-child {
-					margin: -3em 0 1.5em -1.5em;
-					width: calc(100% + 3em);
+					margin: 0 0 0 0;
+					width: calc(100% - 3em);
 				}
 
 		}
 
 		@media screen and (max-width: 360px) {
 
-			#main {
-				border-radius: 0;
-//				z-index : 1;
-				position: relative;
+			#main > .main {
+				padding: 1em 1em 1em 1em ;
 			}
 
-				#main > .main {
-					padding: 2.5em 1em 0.5em 1em ;
+				#main > .main > .image.main:first-child {
+					margin: 0 0 0 0;
+					width: calc(100% - 2em);
 				}
-
-					#main > .main > .image.main:first-child {
-						margin: -2.5em 0 1.5em -1em;
-						width: calc(100% + 2em);
-						border-radius: 0;
-					}
-
-						#main > .main > .image.main:first-child img {
-							border-radius: 0;
-						}
 
 		}
 
