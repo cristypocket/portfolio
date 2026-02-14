@@ -199,7 +199,7 @@ input, select, textarea {
 	h5 {
 		font-weight: 300;
 		line-height: 1;
-		margin: 0 0 0.1em 0;
+		margin: 0 0 1em 0;
 		letter-spacing: -0.025em;
 	}
 	
@@ -3123,7 +3123,6 @@ input, select, textarea {
 				-ms-transition-delay: 2s;
 				transition-delay: 2s;
 				display: block;
-				position: inherit;
 				margin: 0 1000 0 0;
 				
 			}
@@ -3243,10 +3242,10 @@ input, select, textarea {
 		@media screen and (max-width: 360px) {
 
 			#header {
-				padding: 0 0 0 0;
+				padding: 2em 1em 1em 2em;
 			}
 				#header.alt h1 {
-					font-size: 1.15em;
+					font-size: 2.15em;
 				}
 
 				#header.alt .logo {
