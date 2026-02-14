@@ -3103,8 +3103,10 @@ input, select, textarea {
 			}
 
 			#header.alt .logo {
-				position: relative;
-				z-index: 1;
+				position: absolute;
+				left: 240px
+				max-height: 250px
+				z-index: 4;
 				-moz-transition: opacity 2s ease, -moz-transform 2s ease;
 				-webkit-transition: opacity 2s ease, -webkit-transform 2s ease;
 				-ms-transition: opacity 2s ease,-ms-transform 2s ease;
@@ -3143,42 +3145,6 @@ input, select, textarea {
 			#header {
 				padding: 1em 1em 1em 1em ;
 			}
-
-				#header.alt {
-					position: relative;
-					z-index: 1;
-					-moz-transition: opacity 3s ease;
-					-webkit-transition: opacity 3s ease;
-					-ms-transition: opacity 3s ease;
-					transition: opacity 3s ease;
-					-moz-transition-delay: 0.5s;
-					-webkit-transition-delay: 0.5s;
-					-ms-transition-delay: 0.5s;
-					transition-delay: 0.5s;
-					opacity: 1;
-				}
-
-				#header.alt .logo {
-					position: relative;
-					z-index: 1;
-					-moz-transition: opacity 2s ease, -moz-transform 2s ease;
-					-webkit-transition: opacity 2s ease, -webkit-transform 2s ease;
-					-ms-transition: opacity 2s ease,-ms-transform 2s ease;
-					transition: opacity 1s ease, transform 4s ease;
-					-moz-transition-delay: 2s;
-					-webkit-transition-delay: 2s;
-					-ms-transition-delay: 2s;
-					transition-delay: 2s;
-					display: block;
-					position: inherit;
-					margin: 0 0 0 0;	
-				}
-
-				#header.alt .logo img {
-					display: block;
-					margin: 0 0 0 0;
-					max-width: 100px;
-				}
 			
 		}
 
@@ -3216,7 +3182,6 @@ input, select, textarea {
 				#header.alt {
 					padding: 1em 1em 1em 1em ;
 				}
-
 		}
 
 		@media screen and (max-width: 360px) {
@@ -3224,43 +3189,6 @@ input, select, textarea {
 			#header {
 				padding: 1em 1em 1em 1em ;
 			}
-
-				#header.alt {
-					position: relative;
-					z-index: 1;
-					-moz-transition: opacity 3s ease;
-					-webkit-transition: opacity 3s ease;
-					-ms-transition: opacity 3s ease;
-					transition: opacity 3s ease;
-					-moz-transition-delay: 0.5s;
-					-webkit-transition-delay: 0.5s;
-					-ms-transition-delay: 0.5s;
-					transition-delay: 0.5s;
-					opacity: 1;
-				}
-
-				#header.alt .logo {
-					position: relative;
-					z-index: 1;
-					-moz-transition: opacity 2s ease, -moz-transform 2s ease;
-					-webkit-transition: opacity 2s ease, -webkit-transform 2s ease;
-					-ms-transition: opacity 2s ease,-ms-transform 2s ease;
-					transition: opacity 1s ease, transform 4s ease;
-					-moz-transition-delay: 2s;
-					-webkit-transition-delay: 2s;
-					-ms-transition-delay: 2s;
-					transition-delay: 2s;
-					display: block;
-					position: inherit;
-					margin: 0 0 0 0;	
-				}
-
-				#header.alt .logo img {
-					display: block;
-					margin: 0 0 0 0;
-					max-width: 70px;
-				}
-
 		}
 
 		body.is-preload #header.alt > * {
