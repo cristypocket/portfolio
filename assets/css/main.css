@@ -3151,8 +3151,8 @@ input, select, textarea {
 					position: absolute;
 					left: 2em;
 					top: 0;
-					height: 100%;
-					width: auto;
+					height: 60%;
+					width: 60%;
 				}
 			
 		}
@@ -3189,8 +3189,8 @@ input, select, textarea {
 					position: absolute;
 					left: 1em;
 					top: 0;
-					height: 100%;
-					width: auto;
+					height: 40%;
+					width: 40%;
 					z-index: 9;
 				}
 
@@ -3218,8 +3218,8 @@ input, select, textarea {
 					position: inherit;
 					left: 0;
 					top: 0;
-					height: auto;
-					width: auto;
+					height: 15%;
+					width: 15%;
 					z-index:9;
 				}
 
