@@ -3132,7 +3132,7 @@ input, select, textarea {
 					margin: 0 0 0 0;
 				}
 
-		@media screen and (max-width: 1080px) {
+		/*@media screen and (max-width: 1080px) {
 
 			#header {
 				padding: 1em 1em 1em 1em ;
@@ -3224,7 +3224,7 @@ input, select, textarea {
 					z-index:9;
 				}
 
-		}
+		}*/
 
 
 		body.is-preload #header.alt > * {
