@@ -3132,7 +3132,7 @@ input, select, textarea {
 					margin: 0 0 0 0;
 				}
 
-		/*@media screen and (max-width: 1080px) {
+		@media screen and (max-width: 1080px) {
 
 			#header {
 				padding: 1em 1em 1em 1em ;
@@ -3160,7 +3160,7 @@ input, select, textarea {
 		@media screen and (max-width: 736px) {
 
 			#header {
-				padding: 0.5em 0 0.5em 0 ;
+				padding: 0 0 0 0 ;
 			}
 
 				#header p {
@@ -3173,7 +3173,7 @@ input, select, textarea {
 					}
 
 				#header.alt {
-					padding: 0.5em 0 0.5em 0 ;
+					padding: 0 0 0 0 ;
 				}
 
 				#header.alt h1 {
@@ -3203,7 +3203,7 @@ input, select, textarea {
 				}
 
 				#header.alt {
-					padding: 0.2em 0.2em 0.2em 0.2em;
+					padding: 0 0 0 0;
 				}
 
 				#header.alt h1 {
@@ -3216,15 +3216,15 @@ input, select, textarea {
 				}
 			
 				#header.alt .logo {
-					position: inherit;
+					position: absolute;
 					left: 0;
 					top: 0;
-					height: 5em;
+					height: 3em;
 					width: auto;
 					z-index:9;
 				}
 
-		}*/
+		}
 
 
 		body.is-preload #header.alt > * {
