@@ -3088,11 +3088,8 @@ input, select, textarea {
   			aspect-ratio: 1 / 1;         /* <- empêche l’écrasement */
   			border-radius: 50%;
   			overflow: hidden;
-
-  			border: 6px solid rgba(255,255,255,0.95);
   			margin-top: 0.75rem;
   			margin-bottom: 1rem;
-
   			display: block;
 		}
 
