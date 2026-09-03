@@ -326,7 +326,7 @@ input, select, textarea {
 	}
 
 	h1, h2, h3, h4, h5, h6 {
-		color: #A33F66;
+		color: #BB1B68;
 	}
 
 	blockquote {
@@ -3131,7 +3131,7 @@ input, select, textarea {
 		width: 64em;
 		max-width: calc(100% - 4em);
 		padding: 1em;
-		background-color: #A33F66;
+		background-color: #BB1B68;
 		border-top-left-radius: 0;
 		border-top-right-radius: 0em;
 		border-bottom-left-radius: 0.25em;
@@ -3223,7 +3223,7 @@ input, select, textarea {
 			justify-content: center;
 			width: 56em;
 			padding: 1em;
-			background-color:#974766;
+			background-color:#A33F66;
 			border-top-left-radius: 0.25em;
 			border-top-right-radius: 0.25em;
 			border-bottom-left-radius: 0.25em;
