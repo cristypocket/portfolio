@@ -3084,8 +3084,8 @@ input, select, textarea {
 		}
 
 		#header.alt .logo{
-  			width: clamp(200px, 44vw, 400px);
-  			aspect-ratio: 1 / 1; 
+  			width: clamp(220px, 44vw, 400px);
+  			/*aspect-ratio: 1 / 1; */
 			border-radius: 50%;
   			overflow: hidden;
   			margin-top: 0rem;
