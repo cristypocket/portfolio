@@ -3084,12 +3084,12 @@ input, select, textarea {
 		}
 
 		#header.alt .logo{
-  			width: clamp(220px, 44vw, 480px);
+  			width: clamp(200px, 44vw, 400px);
   			aspect-ratio: 1 / 1; 
 			border-radius: 50%;
   			overflow: hidden;
-  			margin-top: 0.5rem;
-  			margin-bottom: 0.5rem;
+  			margin-top: 0.1rem;
+  			margin-bottom: 0.1rem;
   			display: block;
 		}
 
