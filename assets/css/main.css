@@ -98,7 +98,7 @@ input, select, textarea {
 	}
 
 	body {
-		background-color: #289e9a;
+		background-color: #ffe6f0;
 	}
 
 		body.is-preload *, body.is-preload *:before, body.is-preload *:after {
@@ -326,7 +326,7 @@ input, select, textarea {
 	}
 
 	h1, h2, h3, h4, h5, h6 {
-		color: #ffffff;
+		color: #A33F66;
 	}
 
 	blockquote {
@@ -3131,7 +3131,7 @@ input, select, textarea {
 		width: 64em;
 		max-width: calc(100% - 4em);
 		padding: 1em;
-		background-color: #289e9a;
+		background-color: #A33F66;
 		border-top-left-radius: 0;
 		border-top-right-radius: 0em;
 		border-bottom-left-radius: 0.25em;
@@ -3210,7 +3210,7 @@ input, select, textarea {
 					}
 
 					#nav ul li a.active {
-						background-color: #224f4d;
+						background-color: #4F2231;
 						box-shadow: none;
 					}
 
@@ -3223,7 +3223,7 @@ input, select, textarea {
 			justify-content: center;
 			width: 56em;
 			padding: 1em;
-			background-color:#659391;
+			background-color:#974766;
 			border-top-left-radius: 0.25em;
 			border-top-right-radius: 0.25em;
 			border-bottom-left-radius: 0.25em;
@@ -3270,8 +3270,8 @@ input, select, textarea {
 /* Main */
 
 	#main {
-		background-color: #dae7e6;
-		/*#FFFFFF chqnges*/ 
+		background-color: #ffe6f0;
+		/*#dae7e6 changes*/ 
 		color: #525252;
 		border-radius: 0.1em;
 	}
