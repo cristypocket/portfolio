@@ -2457,6 +2457,7 @@ input, select, textarea {
 
 		dl dd {
 			margin-left: 3em;
+			font-color: #636363;
 		}
 
 		dl.alt dt {
@@ -3084,8 +3085,8 @@ input, select, textarea {
 		}
 
 		#header.alt .logo{
-  			width: clamp(220px, 44vw, 480px);
-  			aspect-ratio: 4 /3;
+  			width: clamp(220px, 44vw, 400px);
+  			aspect-ratio: 5 /3;
 			border-radius: 0;
   			overflow: hidden;
   			margin-top: 0rem;
