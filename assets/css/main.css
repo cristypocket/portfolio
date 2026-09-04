@@ -3479,7 +3479,7 @@ input, select, textarea {
 			border-top-color: #dddddd;
 		}
 
-		#main dl dt {
+		#main dl .dt .dd {
 			color: #636363;
 		}
 
