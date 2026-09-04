@@ -2457,7 +2457,6 @@ input, select, textarea {
 
 		dl dd {
 			margin-left: 3em;
-			font-color: #636363;
 		}
 
 		dl.alt dt {
@@ -2483,6 +2482,10 @@ input, select, textarea {
 	}
 
 	dl dt {
+		color: #636363;
+	}
+
+	dl dd {
 		color: #636363;
 	}
 
