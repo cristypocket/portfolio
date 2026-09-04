@@ -98,7 +98,7 @@ input, select, textarea {
 	}
 
 	body {
-		background-color: ##f9e8df;
+		background-color: #cee5d4;
 	}
 
 		body.is-preload *, body.is-preload *:before, body.is-preload *:after {
@@ -115,7 +115,7 @@ input, select, textarea {
 /* Type */
 
 	body {
-		background-color: #f9e8df;
+		background-color: #cee5d4;
 		color: rgba(255, 255, 255, 0.65);
 	}
 
@@ -3492,10 +3492,10 @@ input, select, textarea {
 
 		#main header.major h2:after {
 			background-color: #dddddd;
-			background-image: -moz-linear-gradient(90deg, #090033, #289e9a, #2d2149);
-			background-image: -webkit-linear-gradient(90deg, #090033, #289e9a, #2d2149);
-			background-image: -ms-linear-gradient(90deg, #090033, #289e9a6, #2d2149);
-			background-image: linear-gradient(90deg, #090033, #289e9a, #2d2149);
+			background-image: -moz-linear-gradient(90deg, #090033, #bb1b68, #2d2149);
+			background-image: -webkit-linear-gradient(90deg, #090033, #bb1b68, #2d2149);
+			background-image: -ms-linear-gradient(90deg, #090033, #bb1b68, #2d2149);
+			background-image: linear-gradient(90deg, #090033, #bb1b68, #2d2149);
 		}
 
 		#main table tbody tr {
