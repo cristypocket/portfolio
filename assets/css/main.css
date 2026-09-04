@@ -3214,7 +3214,7 @@ input, select, textarea {
 					}
 
 					#nav ul li a.active {
-						background-color: #4F2231;
+						background-color: #6E0F3D;
 						box-shadow: none;
 					}
 
@@ -3227,7 +3227,7 @@ input, select, textarea {
 			justify-content: center;
 			width: 56em;
 			padding: 1em;
-			background-color:#A33F66;
+			background-color:#901450F5;
 			border-top-left-radius: 0em;
 			border-top-right-radius: 0em;
 			border-bottom-left-radius: 0.25em;
