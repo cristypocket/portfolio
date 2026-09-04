@@ -4113,12 +4113,14 @@ img.hover-shadow {
   /* Modal Content */
   .modal-content, .modal-contentDPro, .modal-contentDPer {
 	position: relative;
-	background-color: #fefefef3;
+	background-color: #cee5d4f5;
 	margin: auto;
 	padding: 0;
 	width:100%;
 	max-width: 1200px;
 	border-radius: 5px;
+	border: 2px;
+	border-color:#6f8073;
 	display: inline-block;
   }
   
