@@ -192,7 +192,7 @@ input, select, textarea {
 	h1, h2, h3, h4, h6 {
 		font-weight: 300;
 		line-height: 1.5;
-		margin: 0 0 0.7em 0;
+		margin: 0.7em 0 0.7em 0;
 		letter-spacing: -0.025em;
 	}
 	
@@ -211,6 +211,7 @@ input, select, textarea {
 	h1 {
 		font-size: 2.5em;
 		line-height: 1.2;
+		margin: 0em 0 0.7em 0;
 	}
 
 	h2 {
@@ -4224,7 +4225,7 @@ img.hover-shadow {
   }
 
   .text-modal, .text-modalDPro, .text-modalDPer {
-	  font-size: 14px;
+	  font-size: 16px;
 	  margin:0em;
 	  padding: 5%;
 	  text-align: justify;
