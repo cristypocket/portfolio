@@ -3957,7 +3957,7 @@ input, select, textarea {
 }
 
 /* The Modal (background) */
-.modal, .modalDPro, .modalDPer {
+.modal, .modalDPro, .modalDPer, .modalSite {
   display: none;
   position: fixed;
   z-index: 1;
@@ -3971,7 +3971,7 @@ input, select, textarea {
 }
 
 /* Modal Content */
-.modal-content, .modal-contentDPro, .modal-contentDPer {
+.modal-content, .modal-contentDPro, .modal-contentDPer, modal-contentSite {
   position: relative;
   background-color: #cee5d4f5;
   box-shadow: inset 0 0 0 1.5px #4f7871;
@@ -3984,7 +3984,7 @@ input, select, textarea {
 }
 
 /* The Close Button */
-.close, .closeDPro, .closeDPer {
+.close, .closeDPro, .closeDPer, .closeSite {
   color: white;
   position: absolute;
   top: 10px;
@@ -3996,14 +3996,14 @@ input, select, textarea {
 .close:hover,
 .close:focus, .closeDPro:hover,
 .closeDPro:focus, .closeDPer:hover,
-.closeDPer:focus {
+.closeDPer:focus, .closeSite:hover, .closeSite:focus {
   color: #999;
   text-decoration: none;
   cursor: pointer;
 }
 
 /* Hide the slides by default */
-.mySlides, .mySlidesDPro, .mySlidesDPer {
+.mySlides, .mySlidesDPro, .mySlidesDPer, .mySlidesSite {
   display: none;
 }
 
@@ -4011,7 +4011,7 @@ input, select, textarea {
 .prev,
 .next, .prevDPro,
 .nextDPro, .prevDPer,
-.nextDPer {
+.nextDPer, .prevSite, .nextSite {
   cursor: pointer;
   position: absolute;
   top: 50%;
@@ -4099,7 +4099,7 @@ img.hover-shadow {
   }
   
   /* The Modal (background) */
-  .modal, .modalDPro, .ModalDPer {
+  .modal, .modalDPro, .ModalDPer, .ModalSite {
 	display: none;
 	position: fixed;
 	z-index: 1;
@@ -4114,7 +4114,7 @@ img.hover-shadow {
   }
   
   /* Modal Content */
-  .modal-content, .modal-contentDPro, .modal-contentDPer {
+  .modal-content, .modal-contentDPro, .modal-contentDPer, .modal-contentSite {
 	position: relative;
 	background-color: #cee5d4f5;
 	margin: auto;
@@ -4128,7 +4128,7 @@ img.hover-shadow {
   }
   
   /* The Close Button */
-  .close, .closeDPro, .closeDPer {
+  .close, .closeDPro, .closeDPer, .closeSite {
 	color: #333333;
 	position: absolute;
 	top:0;
@@ -4137,19 +4137,19 @@ img.hover-shadow {
 	font-weight: bold;
   }
   
-  .close:hover, .close:focus, .closeDPro:hover, .closeDPro:focus, .closeDPer:hover, .closeDPer:focus {
+  .close:hover, .close:focus, .closeDPro:hover, .closeDPro:focus, .closeDPer:hover, .closeDPer:focus, .closeSite:hover, .closeSite:focus {
 	color: #999;
 	text-decoration: none;
 	cursor: pointer;
   }
   
   /* Hide the slides by default */
-  .mySlides, .mySlidesDPro, .mySlidesDPer {
+  .mySlides, .mySlidesDPro, .mySlidesDPer, .mySlidesSite {
 	display: none;
   }
   
   /* Next & previous buttons */
-  .prev, .next, .prevDPro, .nextDPro, .prevDPer, .nextDPer {
+  .prev, .next, .prevDPro, .nextDPro, .prevDPer, .nextDPer, .prevSite, .nextSite {
 	cursor: pointer;
 	position: absolute;
 	top: 50%;
@@ -4166,17 +4166,17 @@ img.hover-shadow {
   }
   
   /* Position the "next button" to the right */
-  .next, .nextDPro, .nextDPer {
+  .next, .nextDPro, .nextDPer, .nextSite {
 	right: 0;
 	border-radius: 3px 0 0 3px;
   }
 
-  .prev, .prevDPro, .prevDPer {
+  .prev, .prevDPro, .prevDPer, .prevSite {
 	  left: 0;
 	}
   
   /* On hover, add a black background color with a little bit see-through */
-  .prev:hover, .next:hover, .prevDPro:hover, .nextDPro:hover, .prevDPer:hover, .nextDPer:hover {
+  .prev:hover, .next:hover, .prevDPro:hover, .nextDPro:hover, .prevDPer:hover, .nextDPer:hover, .prevSite:hover, .nextSite:hover {
 	background-color: rgba(0, 0, 0, 0.8);
   }
   
@@ -4214,7 +4214,7 @@ img.hover-shadow {
 	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
   }
 
-  .image-modal, .image-modalDPro, .image-modalDPer {
+  .image-modal, .image-modalDPro, .image-modalDPer, .image-modalSite {
 	text-align: left;
 	vertical-align: middle;
 	padding: 5%;
@@ -4224,7 +4224,7 @@ img.hover-shadow {
 
   }
 
-  .text-modal, .text-modalDPro, .text-modalDPer {
+  .text-modal, .text-modalDPro, .text-modalDPer, .text-modalSite {
 	  font-size: 16px;
 	  margin:0em;
 	  padding: 5%;
