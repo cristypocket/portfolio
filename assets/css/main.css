@@ -4034,7 +4034,7 @@ input, select, textarea {
 }
 
 /* On hover, add a black background color with a little bit see-through */
-.prev:hover, .next:hover, .prevDPro:hover, .nextDPro:hover, .prevDPer:hover, .nextDPer:hover, .prevSlide:hover, .nextSlide:hover {
+.prev:hover, .next:hover, .prevDPro:hover, .nextDPro:hover, .prevDPer:hover, .nextDPer:hover, .prevSite:hover, .nextSite:hover {
   background-color: rgba(0, 0, 0, 0.8);
 }
 
@@ -4099,7 +4099,7 @@ img.hover-shadow {
   }
   
   /* The Modal (background) */
-  .modal, .modalDPro, .ModalDPer, .ModalSite {
+  .modal, .modalDPro, .modalDPer, .modalSite {
 	display: none;
 	position: fixed;
 	z-index: 1;
