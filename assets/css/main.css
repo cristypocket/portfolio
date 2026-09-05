@@ -4028,13 +4028,13 @@ input, select, textarea {
 }
 
 /* Position the "next button" to the right */
-.next, .nextDPro, .nextDPer {
+.next, .nextDPro, .nextDPer, .nextSite {
   right: 0;
   border-radius: 3px 0 0 3px;
 }
 
 /* On hover, add a black background color with a little bit see-through */
-.prev:hover, .next:hover, .prevDPro:hover, .nextDPro:hover, .prevDPer:hover, .nextDPer:hover {
+.prev:hover, .next:hover, .prevDPro:hover, .nextDPro:hover, .prevDPer:hover, .nextDPer:hover, .prevSlide:hover, .nextSlide:hover {
   background-color: rgba(0, 0, 0, 0.8);
 }
 
