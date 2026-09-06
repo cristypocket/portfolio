@@ -4215,10 +4215,8 @@ img.hover-shadow {
   }
 
   .image-modal, .image-modalDPro, .image-modalDPer, .image-modalSite {
-	display: inline;
 	text-align: left;
-	vertical-align: middle;
-	padding: 0em 0 0 0;
+	padding: 10% 0 0 10%;
 	margin:0em;
 	height: 100%;
 	width: 100%;
