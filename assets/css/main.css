@@ -4217,7 +4217,7 @@ img.hover-shadow {
   .image-modal, .image-modalDPro, .image-modalDPer, .image-modalSite {
 	text-align: left;
 	vertical-align: middle;
-	padding: 5%;
+	padding: 0;
 	margin:0em;
 	height: 100%;
 	width: 100%;
