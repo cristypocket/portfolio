@@ -1348,8 +1348,7 @@ input, select, textarea {
 	width:100%;
 	max-width: 1200px;
 	border-radius: 5px;
-	border: 2px;
-	border-color:#6f8073;
+	box-shadow: inset 1px #6f8073;
 	display: inline-block;
   }
   
@@ -1407,8 +1406,7 @@ input, select, textarea {
   }
 
   .image-modal, .image-modalDPro, .image-modalDPer, .image-modalSite {
-	text-align: left;
-	padding: 10% 0 0 10%;
+	align-content: center;
 	margin:0em;
 	height: 100%;
 	width: 100%;
@@ -1417,7 +1415,8 @@ input, select, textarea {
   .text-modal, .text-modalDPro, .text-modalDPer, .text-modalSite {
 	  font-size: 16px;
 	  margin:0em;
-	  padding: 5% 0 15% 5%;
+	  padding: 0 0 30px 10px;
+	  align-content: center;
 	  text-align: justify;
 	  color: #636363;
   }
@@ -1426,21 +1425,11 @@ input, select, textarea {
   /* Feature modal */
 
 	.features2 {
-		display: -moz-flex;
-		display: -webkit-flex;
-		display: -ms-flex;
 		display: flex;
-		-moz-flex-wrap: wrap;
-		-webkit-flex-wrap: wrap;
-		-ms-flex-wrap: wrap;
 		flex-wrap: wrap;
-		-moz-justify-content: center;
-		-webkit-justify-content: center;
-		-ms-justify-content: center;
 		justify-content: center;
 		width: calc(100% + 2em);
 		margin: 0 0 3em -2em;
-		padding: 0;
 		list-style: none;
 	}
 
