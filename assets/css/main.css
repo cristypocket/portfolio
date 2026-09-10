@@ -964,9 +964,9 @@ input, select, textarea {
 		#main input[type="button"],
 		#main button,
 		#main .button {
-			background-color: transparent;
-			box-shadow: inset 0 0 0 1.5px #4f7871;
-			color: #4f7871 !important;
+			background-color: #BB1B68;
+			box-shadow: inset 0 0 0 1.5px #901450F5;
+			color: #ffffff;
 		}
 
 			#main input[type="submit"]:hover,
@@ -974,7 +974,8 @@ input, select, textarea {
 			#main input[type="button"]:hover,
 			#main button:hover,
 			#main .button:hover {
-				background-color: rgba(222, 222, 222, 0.25);
+				background-color: #901450F5;
+				box-shadow: inset 0 0 0 1.5px #6E0F3D;
 			}
 
 			#main input[type="submit"]:active,
@@ -1343,6 +1344,7 @@ input, select, textarea {
 	position: relative;
   	background-color: #cee5d4f5;
   	box-shadow: inset 0 0 0 1.5px #4f7871;
+	border-radius: 5px;
   	color: #4f7871 !important;	
   	margin: auto;
   	padding: 0.7em 0 0 0;
@@ -1404,13 +1406,14 @@ input, select, textarea {
   .image-modal, .image-modalDPro, .image-modalDPer, .image-modalSite {
 	align-content: center;
 	margin:0em;
+	padding: 0.5em 1em 1em 0em;
 	height: 100%;
 	width: 100%;
  }
 
   .text-modal, .text-modalDPro, .text-modalDPer, .text-modalSite {
 	  font-size: 16px;
-	  margin:0em;
+	  margin:0.2em 1em 0.2em -1em;
 	  padding: 0 0 30px 10px;
 	  align-content: center;
 	  text-align: justify;
@@ -1424,8 +1427,9 @@ input, select, textarea {
 		display: flex;
 		flex-wrap: wrap;
 		justify-content: center;
-		width: calc(100% + 2em);
-		margin: 0 0 3em -2em;
+		width: 100%;
+		margin: 0;
+		padding: 0;
 		list-style: none;
 	}
 
