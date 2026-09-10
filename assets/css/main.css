@@ -760,7 +760,7 @@ input, select, textarea {
 
 @media screen and (max-width: 736px){
   #header, #header.alt { padding: 0; }
-  #header.alt .hero { min-height: 14em; }
+  #header.alt .hero { min-height: 12em; }
 }
 		
 
@@ -897,7 +897,7 @@ input, select, textarea {
 			}
 
 				#nav + #main {
-					padding-top: 0;
+					padding-top: 4em;
 				}
 
 					#nav ul li a {
