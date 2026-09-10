@@ -1361,6 +1361,7 @@ input, select, textarea {
 	right: 25px;
 	font-size: 35px;
 	font-weight: bold;
+	cursor: pointer;
   }
   
   .close:hover, .close:focus, .closeDPro:hover, .closeDPro:focus, .closeDPer:hover, .closeDPer:focus, .closeSite:hover, .closeSite:focus {
