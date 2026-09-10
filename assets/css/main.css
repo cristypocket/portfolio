@@ -1343,7 +1343,7 @@ input, select, textarea {
   .modal-content, .modal-contentDPro, .modal-contentDPer, .modal-contentSite {
 	position: relative;
   	background-color: #cee5d4f5;
-  	box-shadow: inset 0 0 0 1.5px #4f7871;
+  	box-shadow: inset 0 0 0 1.5px #BB1B68;
 	border-radius: 5px;
   	color: #4f7871 !important;	
   	margin: auto;
@@ -1365,6 +1365,7 @@ input, select, textarea {
   
   .close:hover, .close:focus, .closeDPro:hover, .closeDPro:focus, .closeDPer:hover, .closeDPer:focus, .closeSite:hover, .closeSite:focus {
 	background-color: #BB1B68;
+	color: #ffffff;
   }
   
   /* Hide the slides by default */
@@ -1401,6 +1402,7 @@ input, select, textarea {
   
   .prev:hover, .next:hover, .prevDPro:hover, .nextDPro:hover, .prevDPer:hover, .nextDPer:hover, .prevSite:hover, .nextSite:hover {
 	background-color: #BB1B68;
+	color: #ffffff;
   }
 
   .image-modal, .image-modalDPro, .image-modalDPer, .image-modalSite {
