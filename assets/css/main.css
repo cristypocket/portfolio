@@ -1364,8 +1364,7 @@ input, select, textarea {
   }
   
   .close:hover, .close:focus, .closeDPro:hover, .closeDPro:focus, .closeDPer:hover, .closeDPer:focus, .closeSite:hover, .closeSite:focus {
-	background-color: #BB1B68;
-	color: #ffffff;
+	color: #4f7871;
   }
   
   /* Hide the slides by default */
