@@ -1415,7 +1415,7 @@ input, select, textarea {
 
   .text-modal, .text-modalDPro, .text-modalDPer, .text-modalSite {
 	  font-size: 16px;
-	  margin:0.2em 1em 0.2em -1em;
+	  margin:0.2em 1em 0.2em 1.4em;
 	  padding: 0 0 30px 10px;
 	  align-content: center;
 	  text-align: justify;
