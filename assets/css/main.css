@@ -1355,7 +1355,7 @@ input, select, textarea {
   
   /* The Close Button */
   .close, .closeDPro, .closeDPer, .closeSite {
-	color: #333333;
+	color: #BB1B68;
 	position: absolute;
 	top:0;
 	right: 25px;
@@ -1381,7 +1381,7 @@ input, select, textarea {
 	width: auto;
 	padding: 16px;
 	margin-top: -50px;
-	color: #333333;
+	color: #BB1B68;
 	font-weight: bold;
 	font-size: 20px;
 	transition: 0.6s ease;
