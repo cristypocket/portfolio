@@ -1365,7 +1365,7 @@ input, select, textarea {
   }
   
   .close:hover, .close:focus, .closeDPro:hover, .closeDPro:focus, .closeDPer:hover, .closeDPer:focus, .closeSite:hover, .closeSite:focus {
-	color: #4f7871;
+	color: #901450F5;
   }
   
   /* Hide the slides by default */
@@ -1402,7 +1402,7 @@ input, select, textarea {
   
   .prev:hover, .next:hover, .prevDPro:hover, .nextDPro:hover, .prevDPer:hover, .nextDPer:hover, .prevSite:hover, .nextSite:hover {
 	background-color: #BB1B68;
-	color: #ffffff;
+	color: #ffffff !important!;
   }
 
   .image-modal, .image-modalDPro, .image-modalDPer, .image-modalSite {
