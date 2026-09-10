@@ -771,7 +771,6 @@ input, select, textarea {
 		-webkit-transition: background-color 0.2s ease, border-top-left-radius 0.2s ease, border-top-right-radius 0.2s ease, padding 0.2s ease;
 		-ms-transition: background-color 0.2s ease, border-top-left-radius 0.2s ease, border-top-right-radius 0.2s ease, padding 0.2s ease;
 		transition: background-color 0.2s ease, border-top-left-radius 0.2s ease, border-top-right-radius 0.2s ease, padding 0.2s ease;
-		background-color: #ffffff;
 		color: #f0f0f0;
 		position: absolute;
 		display: flex;
@@ -1342,14 +1341,14 @@ input, select, textarea {
   /* Modal Content */
   .modal-content, .modal-contentDPro, .modal-contentDPer, .modal-contentSite {
 	position: relative;
-	background-color: #cee5d4f5;
-	margin: auto;
-	padding: 0;
-	width:100%;
-	max-width: 1200px;
-	border-radius: 5px;
-	box-shadow: inset 1px #6f8073;
-	display: inline-block;
+  	background-color: #cee5d4f5;
+  	box-shadow: inset 0 0 0 1.5px #4f7871;
+  	color: #4f7871 !important;	
+  	margin: auto;
+  	padding: 0.7em 0 0 0;
+  	width: 90%;
+  	max-width: 1200px;
+  	display: inline-block;
   }
   
   /* The Close Button */
@@ -1363,7 +1362,7 @@ input, select, textarea {
   }
   
   .close:hover, .close:focus, .closeDPro:hover, .closeDPro:focus, .closeDPer:hover, .closeDPer:focus, .closeSite:hover, .closeSite:focus {
-	color: #999;
+	color: #BB1B68;
 	text-decoration: none;
 	cursor: pointer;
   }
