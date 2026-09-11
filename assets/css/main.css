@@ -219,7 +219,7 @@ input, select, textarea {
 	}
 
 	h3 {
-		font-size: 1.25em;
+		font-size: 26px;
 		font-weight:bold;
 	}
 	h3.bands{
@@ -227,7 +227,7 @@ input, select, textarea {
 		font-size : 1.3em;
 	}
 	h4 {
-		font-size: 1.1em;
+		font-size: 22px;
 	}
 
 	h5 {
@@ -463,7 +463,8 @@ input, select, textarea {
 		input[type="button"]:active,
 		button:active,
 		.button:active {
-			background-color: rgba(255, 255, 255, 0.2);
+			background-color: #901450F9;
+			color: #BB1B68;
 		}
 
 		input[type="submit"].icon:before,
@@ -983,7 +984,8 @@ input, select, textarea {
 			#main input[type="button"]:active,
 			#main button:active,
 			#main .button:active {
-				background-color: rgba(222, 222, 222, 0.5);
+				background-color: #901450F9;
+				color: #BB1B68;
 			}
 
 			#main input[type="submit"].icon:before,
@@ -1414,7 +1416,7 @@ input, select, textarea {
  }
 
   .text-modal, .text-modalDPro, .text-modalDPer, .text-modalSite {
-	  font-size: 16px;
+	  font-size: 18px;
 	  margin:0.2em 1em 0.2em 1.4em;
 	  padding: 0 0 30px 10px;
 	  align-content: center;
