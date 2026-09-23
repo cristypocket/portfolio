@@ -758,6 +758,11 @@ input, select, textarea {
   			line-height: 1.1;
 		}
 
+#bio, #sites, #dpro, #dper,
+#footer {
+    scroll-margin-top: 110px;
+}
+
 
 @media screen and (max-width: 736px){
   #header, #header.alt { padding: 0; }
